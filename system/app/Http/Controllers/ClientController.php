@@ -10,8 +10,12 @@ class ClientController extends Controller {
     return view('template.client.about'); 
    }
 
-  function home(){
-    return view('template.client.home'); 
+  function dashboard(){
+    return view('template.client.dashboard'); 
+  }
+
+  function contact(){
+    return view('template.client.contact'); 
   }
   
   function index(){

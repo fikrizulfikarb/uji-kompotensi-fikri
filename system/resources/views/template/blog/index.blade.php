@@ -1,7 +1,8 @@
 @extends('template.client.base')
 
 @section('client_content')
-    
+<section id="blog" class="karla-blog-section blog-page section-padding">
+    <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="row">
@@ -21,4 +22,6 @@
             </div>
         </div>
     </div>
+    </div>
+</section>
 @endsection

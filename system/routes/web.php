@@ -24,7 +24,8 @@ use Illuminate\Support\Facades\Route;
 // Route::get('template/client/about', ClientController::class);
 
 Route::get('about', [ClientController::class, 'about']);
-Route::get('home', [ClientController::class, 'home']);
+Route::get('contact', [ClientController::class, 'contact']);
+Route::get('dashboard', [ClientController::class, 'dashboard']);
 
 Route::prefix('admin')->middleware('auth')->group(function(){
     Route::resource('article', ArticleController::class);
