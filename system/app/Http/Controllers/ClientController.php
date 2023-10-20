@@ -9,6 +9,10 @@ class ClientController extends Controller {
   function about(){
     return view('template.client.about'); 
    }
+
+  function home(){
+    return view('template.client.home'); 
+  }
   
   function index(){
     $data['list_article'] = Article::all();

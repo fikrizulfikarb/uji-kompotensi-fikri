@@ -20,11 +20,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [ClientController::class, 'index']);
+// Route::get('/', [ClientController::class, 'index']);
 // Route::get('template/client/about', ClientController::class);
 
 Route::get('about', [ClientController::class, 'about']);
-
+Route::get('home', [ClientController::class, 'home']);
 
 Route::prefix('admin')->middleware('auth')->group(function(){
     Route::resource('article', ArticleController::class);
