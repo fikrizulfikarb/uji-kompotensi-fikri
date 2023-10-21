@@ -71,5 +71,6 @@
         </div>
     </div>
 </div>
+@yield('client_article')
 
 @endsection

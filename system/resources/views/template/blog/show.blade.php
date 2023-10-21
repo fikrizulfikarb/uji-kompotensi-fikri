@@ -1,6 +1,6 @@
 @extends('template.client.base')
 
-@section('client_content')
+@section('client_article')
 
     <article class="mb-4">
         <div class="container px-4 px-lg-5">

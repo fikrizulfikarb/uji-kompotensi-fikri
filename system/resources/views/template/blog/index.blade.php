@@ -1,6 +1,6 @@
-@extends('template.client.base')
+@extends('template.client.dashboard')
 
-@section('client_content')
+@section('client_article')
 <section id="blog" class="karla-blog-section blog-page section-padding">
     <div class="container">
     <div class="row">
