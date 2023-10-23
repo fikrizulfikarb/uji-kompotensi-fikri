@@ -8,7 +8,15 @@ class ClientController extends Controller {
  
   function about(){
     return view('template.client.about'); 
-   }
+  }
+
+  function portfolio(){
+    return view('template.client.portfolio'); 
+  }
+
+  function information(){
+    return view('template.client.information'); 
+  }
 
   function dashboard(){
     return view('template.client.dashboard'); 

@@ -3,7 +3,7 @@
 @section('client_content')
 
 <!-- Banner -->
-<div class="ready banner-padding bg-img" data-overlay-light="0" data-background="images/banner/2.jpg">
+<div class="ready banner-padding bg-img" data-overlay-light="0" data-background="{{ url('public/two') }}/images/banner/2.jpg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -34,10 +34,10 @@
                         <p>We'd love to hear from you! Please fill out the form below or send a note directly with as much details as possible to info@carolinekarla.com</p>
                     </div>
                     <div class="col-md-5 offset-md-1">
-                        <p><b>PHONE :</b> +31 (0)6 11 333 444</p>
-                        <p><b>EMAIL :</b> info@carolinekarla.com</p>
-                        <p><b>ADDRESS :</b>Nederlands</p>
-                        <p><b>SKYPE :</b> @carolinekarla</p>
+                        <p><b>PHONE :</b> +62 812 9003 4449</p>
+                        <p><b>EMAIL :</b> fikrizulfikarbrandan@gmail.com</p>
+                        <p><b>ADDRESS :</b> Kalimantan</p>
+                        <p><b>INSTAGRAM :</b> @fikrizulfikarb</p>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
     </div>
 </div>
 <!-- Contact Form -->
-<div class="ready banner-full-padding bg-img valign" data-background="images/banner/6.jpg">
+<div class="ready banner-full-padding bg-img valign" data-background="{{ url('public/two') }}/images/banner/6.jpg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
